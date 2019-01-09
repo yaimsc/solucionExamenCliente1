@@ -1,0 +1,132 @@
+.container{
+    text-align:center;
+}
+.quad {
+	display:inline-block;
+	width: 46%;
+	min-height: 46%;
+	margin: 0.3% 0.5% 0.7% 0.5%;
+	padding:10px;
+	border:1px solid SteelBlue;
+	background:PaleTurquoise;
+	text-align:left;
+	float:left;
+}
+
+.titulo {
+	text-align: center;
+	font-size:24px;
+	margin: 0 0 10px 0;
+	clear:both;
+}
+
+form label {
+	margin: 0 10px 0 0;
+}
+
+.errorForm {
+	border: 1px solid red;
+	background: pink;
+}
+
+div.errorForm {
+	margin: -6px 0 0px 0;
+	padding: -32px 0;
+}
+
+input.largo {
+	width: 85%;
+}
+
+input.corto {
+	width: 35%;
+	margin: 0 10px 0 0;
+}
+
+#nuevo input[type=checkbox] {
+	margin: 0 10px 0 15px;
+}
+
+input[type=submit] {
+	float:right;
+	margin-right:30px;
+}
+
+.generos {
+	height:3em;
+	background:white;
+	width:90%;
+	margin: 0 auto 16px auto;
+}
+
+.lista {
+	background:white;
+	width:100%;
+	height:16em;
+}
+
+.lista p {
+	margin: 0px 0px;
+	padding: 2px 5px;
+}
+
+.lista p:hover {
+	background: #CCC;
+}
+
+
+.icono {
+	width: 36px;
+	height: 36px;
+	background: url(iconos.png);
+	vertical-align: middle;
+}
+
+.icono_usuaria {
+	 background-position: 0px -252px;
+}
+
+.icono_suario {
+	background-position: -36px -288px;
+}
+
+.icono_anonimo {
+	background-position: -360px -72px;
+}
+
+.icono_nuevo {
+	background-position: -36px -396px;
+}
+
+.icono_consultar {
+	background-position: -432px -288px;
+}
+
+.icono_prestados {
+	background-position: -468px -252px;
+}
+
+.icono_disponibles {
+	background-position: -324px -36px;
+}
+
+.creado {
+	border: 1px solid green;
+	background: lime;
+}
+
+.prestado {
+	border: 1px solid red;
+	background: pink;
+}
+
+.devuelto {
+	border: 1px solid purple;
+	background: plum;
+}
+
+.seleccionado {
+	border: 1px solid blue;
+	background: DeepSkyBlue;
+}
+
